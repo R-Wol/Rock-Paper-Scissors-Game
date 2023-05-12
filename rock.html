@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/rock.css" />
+    <title>Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div id="title">
+      <h1>Rock, Paper or Scissors</h1>
+      <hr />
+    </div>
+    <div id="main-content">
+      <p>Computer Chooses: <span id="compTurn"></span></p>
+      <p>You Choose: <span id="userTurn"></span></p>
+      <button id="rock" onclick="startGame('Rock')">Rock</button>
+      <button id="paper" onclick="startGame('Paper')">Paper</button>
+      <button id="scissors" onclick="startGame('')">Scissors</button>
+      <hr />
+    </div>
+    <div id="decision">
+      <h3 id="result"></h3>
+    </div>
+
+    <script src="js/rock.js"></script>
+  </body>
+</html>
